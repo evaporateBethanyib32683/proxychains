@@ -31,7 +31,7 @@ INSTALL_FLAGS = -D -m
 
 -include config.mak
 
-LDSO_PATHNAME = libproxychains4.$(LDSO_SUFFIX)
+ LDSO_PATHNAME = libproxychains4.$(LDSO_SUFFIX)
 
 SHARED_LIBS = $(LDSO_PATHNAME)
 ALL_LIBS = $(SHARED_LIBS)
